@@ -1,0 +1,11 @@
+{
+"name":"UGRStudent",
+"log":true,
+"agentsconnection": {
+    "host":"isg2.ugr.es",
+    "port":6000,
+    "virtualhost":"test",
+    "username":"ugrstudent",
+    "password":"ugrstudent",
+    "ssl":false}
+}

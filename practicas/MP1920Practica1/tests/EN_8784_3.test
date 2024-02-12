@@ -1,0 +1,8 @@
+EN 8784
+
+%%%CALL < tests/EN_8784_3.test
+%%%OUTPUT
+LANGUAGE: EN ID: 8784
+BAG (0): 
+3 words found 
+STORE - GOETH - FAT - 

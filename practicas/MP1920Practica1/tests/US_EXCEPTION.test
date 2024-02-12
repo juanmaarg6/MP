@@ -1,0 +1,9 @@
+US 10
+
+%%%CALL < tests/US_EXCEPTION.test
+%%%OUTPUT
+Opening tree file ./languages/US.tree
+*** Error opening ./languages/US.tree
+mp1920practica1: src/language.cpp:36: void Language::setLanguage(std::__cxx11::string): Assertion `res' failed.
+
+RUN FINISHED; Aborted; core dumped; real time: 5s; user: 0ms; system: 0ms

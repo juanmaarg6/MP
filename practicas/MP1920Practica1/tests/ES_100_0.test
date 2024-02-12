@@ -1,0 +1,7 @@
+ES 100
+
+%%%CALL < tests/ES_100_0.test
+%%%OUTPUT
+LANGUAGE: ES ID: 100
+BAG (0): 
+0 words found 
