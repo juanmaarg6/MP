@@ -1,0 +1,58 @@
+
+%%%CALL
+%%%VALGRIND
+%%%OUTPUT
+BASE CONSTRUCTOR :
+  0=0  0=0
+DESTRUCTOR 
+
+PARAMETER CONSTRUCTOR :
+  1=1  2=2
+DESTRUCTOR 
+
+
+SET/GET::
+  .=.  .=.  .=.  .=.
+  O=O  .=.  .=.  N=N
+  O=O  E=E  E=E  N=N
+
+
+COPY CONSTRUCTOR/COPY::
+  2=2  2=2
+  O=O  E=E  E=E  N=N
+
+
+  4=4
+  O=O  N=N  E=E  .=.
+
+
+  4=4
+  O=O  E=E  E=E  N=N
+DESTRUCTOR 
+
+
+ADD
+
+
+  16=16
+  O=O  .=.  .=.  .=.  N=N  .=.  .=.  .=.  E=E  .=.  .=.  .=.  .=.  .=.  .=.  .=.
+
+
+  16=16
+  O=O  N=N  E=E  .=.  N=N  .=.  .=.  .=.  E=E  .=.  .=.  .=.  .=.  .=.  .=.  .=.
+
+
+  16=16
+  O=O  N=N  E=E  .=.  N=N  .=.  .=.  .=.  E=E  .=.  .=.  .=.  .=.  .=.  O=O  N=N
+
+
+READ
+
+  16=16
+  O=O  N=N  E=E  .=.  N=N  .=.  .=.  .=.  E=E  .=.  .=.  .=.  .=.  .=.  O=O  N=N
+
+
+PRINT
+1=1
+INPUT:  |4-4-O-N-E-.--N-.-.-.--E-.-.-.--.-.-O-N---|
+OUTPUT: |4-4-O-N-E-.--N-.-.-.--E-.-.-.--.-.-O-N---|
